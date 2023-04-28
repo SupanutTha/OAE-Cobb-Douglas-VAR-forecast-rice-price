@@ -15,5 +15,4 @@ Cobb Douglas and VAR models availble on ```sklean```
 
 ## Data
 
-We retrive labour force , yield and area of rice data from [bank of thailand] (https://www.bot.or.th/).
-https://www.bot.or.th/App/BTWS_STAT/statistics/BOTWEBSTAT.aspx?reportID=728&language=th
+We retrive labour force , yield ,area of rice , price of oil and gas data from [bank of thailand](https://www.bot.or.th/) and price of product from [Office of Agricultural Economics](https://www.oaw.or.th).
