@@ -3,6 +3,7 @@ import pandas as pd
 import statsmodels.api as sm
 import numpy as np
 from sklearn.metrics import mean_squared_error,r2_score,mean_absolute_error
+import math
 
 
 # Load data
@@ -47,6 +48,7 @@ print("R-squared:", r_squared)
 # Calculate Mean Squared Error
 mse = ((Y - Y_pred) ** 2).mean()
 print("Mean Squared Error:", mse)
+print("Root MSE" , math.sqrt(mse) )
 
 # Calculate Mean Absolute Error
 mae = np.abs(Y - Y_pred).mean()
@@ -61,8 +63,8 @@ print(Y_pred)
 # VAR
 
 # import data
-export = pd.read_excel('/Users/markio/oae/research/export_year.xlsx', index_col=0)
-oil_gas = pd.read_excel('/Users/markio/oae/research/oil_year.xlsx', index_col=0)
+export = pd.read_excel('export_year.xlsx', index_col=0)
+oil_gas = pd.read_excel('oil_year.xlsx', index_col=0)
 
 # data prep
 Y_pred = pd.DataFrame(Y_pred).reset_index()
