@@ -60,6 +60,12 @@ print(total_yield)
 print("Predict yield")
 print(Y_pred)
 
+# Calculate percent change for actual yield data
+percent_change = (Y_pred - total_yield) / total_yield *100
+
+print("percent_change")
+print(percent_change)
+
 # VAR
 
 # import data
@@ -73,7 +79,7 @@ riceEx = export.iloc[1]
 riceEx_vol = export.iloc[2]
 riceEx = pd.DataFrame(riceEx)
 riceEx_vol = pd.DataFrame(riceEx_vol)
-oil = oil_gas.iloc[1]
+oil = oil_gas.iloc[4]
 gas = oil_gas.iloc[10]
 price = price.iloc[2:10]
 riceEx.index.name = None
