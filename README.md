@@ -1,4 +1,4 @@
-# OAE - Warning (trainee project)
+# OAE - Warning
 
 ## Introduction
 Welcome to the OAE-Warning VAR trainee project! This project is a part of the larger OAE-Warning project, which aims to predict the yield and price of agricultural products in Thailand. In this particular project, i focus on predicting the price of rice using the Cobb Douglas and VAR models.
